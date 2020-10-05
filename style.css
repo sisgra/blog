@@ -1,0 +1,279 @@
+body{
+    background-image:url(Picture/12226.jpg);
+    background-size: contain;
+    
+}
+
+#jumbotron{
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+#top-social{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: lato;
+    text-align:center;
+    height:50px ;
+    
+    
+}
+
+.container{
+    background-color: white;
+}
+
+.widget{
+    padding-top: 1rem;
+    
+}
+
+#top-social a{
+    color: white;
+    padding-right: 4.5rem;
+ 
+}
+
+
+#navigacia{
+    padding-left: 220px;
+}
+
+#navbarToggler ul li{
+    color: #EEC7BC;
+    
+}
+
+
+#navbarToggler ul li a {
+    
+    color:black;
+  }
+
+
+#navbarToggler ul li a:hover {
+    
+    color: #EEC7BC;
+  }
+
+#hr1{
+    border:0.5px solid #EEC7BC;
+}
+
+#hr2{
+    border:0.5px solid #EEC7BC;
+}
+
+
+#blog{
+    margin: 0.35rem;
+}
+
+#blog a{
+    color: #EEC7BC;
+}
+
+#blog h5{
+    color: black;
+}
+.img-fluid img{
+    width: 100%;
+    height: auto;
+}
+.single-post-item .post-details{
+    position: absolute;
+    left: 30px;
+    bottom: -20px;
+    padding: 20px;
+    z-index: 1;
+    background: white;
+    width: 90%;
+    box-shadow: 0 10px 30px whitesmoke;
+}
+
+
+.single-widget {
+    border: 1px solid #eee;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.single-widget .img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.single-widget .img-fluid img{
+    vertical-align: middle;
+    border-style: none;
+}
+.portfolio-widget h4{
+    position: relative;
+    padding: 18px 0 15px;
+    border-bottom: 1px solid gray;
+    margin-top: 1px;
+}
+.portfolio-widget{
+    text-align: left;
+}
+
+ .portfolio-widget p{
+    display: block;
+    margin-bottom: 1rem;
+    margin-block-start: 3rem;
+    margin-block-end: 2rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #EEC7BC;
+}
+
+.popular-posts-widget .jq-tab-menu{
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.popular-posts-widget .jq-tab-menu .jq-tab-title.active{
+    border-bottom: 1px solid #EEC7BC;
+
+}
+
+.popular-posts-widget .jq-tab-menu .jq-tab-title {
+    font-size: 11px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+.d-flex{
+    display:flex;
+}
+
+.popular-posts-widget .single-popular-post .popular-details{
+    margin-left: 15px;
+}
+
+.posty{
+    color: #EEC7BC;
+}
+#recentPost img{
+    margin-bottom: 20px;
+    vertical-align: middle ;    
+}
+
+
+
+#myBtn {
+    display: none; 
+    position: sticky; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: whitesmoke; /* Set a background color */
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color:#EEC7BC; /* Add a dark-grey background on hover */
+  }
+
+
+
+
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container #slide-container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
